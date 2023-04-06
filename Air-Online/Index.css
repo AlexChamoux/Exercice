@@ -1,0 +1,542 @@
+@font-face {
+	font-family: 'MADE-TOMMY-Bold';
+	src: url(./Fonts/made_tommy/MADETOMMY-Bold.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Open-sans-bold';
+    src: url(./Fonts/open-sans/OpenSans-Bold.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Open-sans-condensed-bold';
+    src: url(./Fonts/open-sans-condensed/OpenSansCondensed-Bold.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Source_Sans_Pro';
+    src: url(./Fonts/Source_Sans_Pro/SourceSansPro-Regular.woff) format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    width: 100vw;
+}
+/**************************************************************/
+/*Header*/
+
+/**********************************************************************************************/
+/* Title Logo */
+.container{
+    background-image: url(./Images/photo_aéroport.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 98.5vw;
+    height: 170vh;
+    margin-top: -15vh;
+}
+
+.aologo-noir{
+    width: 9vw;
+    margin-top: 15vh;
+}
+
+.facebook, .insta{
+    width: 4.5vw;
+    margin-top: 17.5vh;
+    margin-right: 1vw;
+    float: right;
+}
+
+.title1{
+    width: 40.5vw;
+    margin-top: 8vh;
+    margin-left: 30vw;
+}
+
+/************************************************************************************************/
+/* Count-down */
+.border-count{
+    margin-left: 30vw;
+    margin-top: 23.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 38.5vw;
+    height: 29vh;
+    background-color: #28292F;    
+}
+
+.count-title{
+    font-family: "Open-sans-bold", sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    color: #D21242;
+    text-align: center;
+    padding-top: 0.8vh;
+}
+
+.countdown-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.count{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'MADE-TOMMY-Bold', sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    width: 7vw;
+    height: 7vw;
+    background-color: white;
+    margin-top: 1.5vh;
+}
+
+.under-count{
+    font-family: 'Open-sans-bold', sans-serif;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+h3{
+    background-color: #28292F;
+    color: white;
+    font-family: 'Open-sans-condensed-bold', sans-serif;
+    font-size: 2.3vw; 
+    text-align: center;
+    width: 18vw;
+    height: 8vh;
+    margin-left: 41vw;
+    text-align: center;
+    padding-top: 2vh
+}
+
+
+/*********************************************************/
+/* Section-1*/
+#section-1{
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+.border-discipline{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #D21242;
+    width: 98.5vw;
+    height: 60vh;
+    margin-bottom: 20vh;
+
+}
+
+.discipline{
+    background-color: white;
+    height: 40vh;
+    width: 25vw;
+    font-family: 'Source_Sans_Pro', sans-serif;
+    font-size: 1vw;
+    padding-top: 5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    
+}
+
+h4{
+    font-family: 'Open-sans-condensed-bold';
+    font-size: 2vw;
+    margin-bottom: 2vh;
+}
+
+/*************************************************************************************/
+/* Inscription Button Part */
+
+.pop-up{
+    display: flex;
+    margin-bottom: 20vh;
+}
+
+.red-plane{
+    width: 10vw;
+    margin-left: 29vw;
+}
+
+.pop-up-btn{
+    cursor: pointer;
+    font-family: 'Open-sans-condensed-bold', sans-serif;
+    font-weight: 700;
+    font-size: 1vw;
+    background-color: #D21242;
+    color: white;    
+    border-radius: 40px;
+    border: none;
+    width: 9vw;
+    height: 7vh;
+    margin-top: 2.2vh;
+    margin-left: 2.5vw;
+}
+
+/* Map, horaire, bus */
+
+.location{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    width: 98.5vw;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+.bus{
+    width: 35vw;
+}
+
+.carte{
+    width: 30vw;
+    height: 22vw;
+}
+
+.horaire{
+    width: 35vw;
+}
+
+/********************************************************************************************/
+/* Thumbnail */
+.partner-thumbnail{
+    background-color: #D21242;
+    /*height: 100vh;*/
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.thumbnails{
+    display: flex;
+    align-items: center;
+    width: 100vw;    
+}
+
+.thumbnails img{
+    width: 20vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 10vh;
+}
+
+.partners {
+    display: flex; 
+    width: 100vw;
+    box-sizing: border-box;
+    margin-top: 15vh;
+}
+  
+.chn-exp, .clrftn, .Obio, .pizhut {
+width: 15vw; 
+margin-left: 3.3vw; 
+
+}
+
+.last-logos{
+    display: block;    
+    max-height: 5vh;
+    margin-left: 3.3vw;
+    margin-top: 2.5vh;
+
+}
+
+.AirF{
+    width: 20.2vw;
+}
+
+.airport{
+    width: 20.2vw;
+}
+
+/****************************************************************/
+/*Footer*/
+footer{
+    display: flex;
+    height: 25vh;
+    max-width: 100%;
+    background-color: #28292F;
+    font-family: 'Source_Sans_Pro',sans-serif;
+    font-weight: 300;
+    font-size: 0.7vw;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot-1{
+    display: block;
+    margin-top: 5vh;
+    margin-left: 20vw;
+    line-height: 3vh;
+    width: 10vw;
+}
+
+.foot-2{
+    display: block;
+    margin-top: 5vh;
+    margin-left: 20vw;
+    line-height: 3vh;
+    width: 10vw;
+}
+
+.red-plane-2{
+    margin-left: 15vw;
+    width: 10vw;
+}
+
+/*******************************************************************/
+/*Section-2*/
+/* Form */
+
+.inscription{
+    display: block;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.inscrip-content{
+    display: block;
+    visibility: hidden;
+    position: fixed;
+    z-index: 2;
+    left: 30vw;
+    top: 5vh;
+    width: 40vw;
+    height: 90vh;
+    background-color: #D21242;
+    /*padding: 8vh;*/
+
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-group input {
+    width: 38.8%;
+    padding: 1vh;
+    border: 1px solid #fff;
+    margin-bottom: 2vh;
+}
+
+#prenom{
+    margin-left: 3.3vw
+}
+
+#nom, #email{
+    width: 80%;
+    padding: 1vh;
+    margin-bottom: 2vh;
+    margin-left: 3.3vw;
+}
+
+.adress-mail{
+    margin-bottom: 5vh;
+}
+
+.supp-1{
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    margin-left: 38vw;
+    cursor: pointer;
+}
+
+.align{
+    display: flex;
+}
+
+.white-plane{
+    width: 13vw;
+    margin-right: 1vw;
+    margin-top: 10vh;
+}
+
+#white-plane{
+    height: 10vh;
+}
+
+/****************************************************************/
+/* Buton checkbox */
+
+.btn-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 1vw;
+    outline: none;
+    margin-top: 2vh;
+    margin-left: 3.3vw;
+}
+
+.btn-checkbox input[type="checkbox"]:checked{
+    background-color: white;
+    /* color: black; */
+}
+
+.btn-checkbox{
+    color: white;
+    font-family: 'Source_Sans_Pro', sans-serif;
+    font-size: 1vw;
+}
+
+#mail, #conditions{
+    margin-top: 5vh;
+}
+
+.cgu{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/*********************************************************/
+/* Button retour et validation */
+
+.valid-return{
+    display: flex;
+}
+
+.return, .valid{
+    cursor: pointer;
+    height: 5vh;
+    width: 10vw;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    margin-top: 10vh;
+}
+
+.return{
+    margin-left: 3.3vw;
+}
+
+.valid{
+    margin-left: 13vw;
+}
+
+/****************************************************************/
+/* Pop-Up Retour et Validation */
+/* Retour */ 
+
+#retour{
+    display: block;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.retour-content{
+    display: block;
+    visibility: hidden;
+    position: fixed;
+    z-index: 2;
+    left: 30vw;
+    top: 30vh;
+    width: 33vw;
+    height: 13vh;
+    background-color: #D21242;
+    padding: 2vh;
+}
+
+.retour-content p{
+    text-align: center;
+    color:white;
+    font-family: 'Source_Sans_Pro', sans-serif;
+    font-size: 1.7vw;
+    font-weight: 400;
+}
+
+.white-plane-2{
+    width: 7vw;
+    margin-left: 26vw;
+    margin-top: -2vh;
+}
+
+.supp-2{
+    width: 1vw;
+    height: 1vw;
+    background-color:white;
+    cursor: pointer;
+    margin-left: 32vw;
+}
+
+/* Validation */
+
+#validation{
+    display: block;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.validation-content{
+    display: block;
+    position: fixed;
+    z-index: 2;
+    left: 30vw;
+    top: 30vh;
+    width: 33vw;
+    height: 18vh;
+    background-color: #D21242;
+    padding: 2vh;
+}
+
+.validation-content p{
+    text-align: center;
+    color:white;
+    font-family: 'Source_Sans_Pro', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.white-plane-3{
+    width: 7vw;
+    margin-left: 26vw;
+    margin-top: -2vh;
+}
+
+.supp-3{
+    cursor: pointer;
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    margin-left: 32vw;
+}
