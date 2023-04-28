@@ -1,0 +1,35 @@
+#titre{
+    font-size: 4vw;
+    margin-top: -0.5vh;
+    margin-bottom: -1vh;
+    margin-left: 37.5vw;
+}
+
+.grid-container {
+    display: grid;
+    width: 50%;
+    margin-left: 24vw;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1.5vh;
+    background-color: #353434;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 6vh;
+}
+
+.grid-item {
+    background-color: #353434;
+    border: 2px solid #797878;
+    width: 6.5vw;
+    height: 6.5vw;
+}
+
+.key-image {
+    display: block;
+    width: 6.5vw
+}
+
+button{
+    margin-left: 5vw;
+}
